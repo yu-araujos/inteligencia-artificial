@@ -1,0 +1,114 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+/* Edições Gerais */ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Nunito;
+    color: #fff;
+    background-color: #04090E;
+    
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #3b5df1;
+
+}
+
+/* Configuração da introdução da página */
+
+.intro{
+    width: 100%;
+    height: 500px;
+    background: url("../img/img-intro.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+.intro p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+/* Configuração das informações da página */ 
+
+.info{
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info p{
+    text-align: left;
+    font-size: 1.25em;
+    line-height: 1.4;
+    max-width: 410px;
+    margin: 0px 30px 50px;
+}
+
+/* Configuração do botão */
+
+.btn{
+    margin-left: 30px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid #3b5df1;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Configuração das Imagens */
+
+.imagens-bloco1{
+    max-width: 1920px;
+    margin-top: -150px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgs1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagens-bloco2{
+    max-width: 1920px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgs2{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Footer */ 
+
+footer{
+    max-width: 1920px;
+    min-width: 360px;
+    text-align: center;
+    background: #3b5df1;
+    background-size: cover;
+    margin-top: 50px;
+    padding: 50px;
+}
